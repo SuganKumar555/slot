@@ -1,5 +1,5 @@
-# Ex02 Time Table
-## Date:
+# Ex04 Time Table
+## Date:17/11/2016
 
 ## AIM
 To write a html webpage page to display your slot timetable.
@@ -27,9 +27,121 @@ Add your course schedule using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
+```
+<html>
+    <head>
+        <title>my website</title>
+    </head>
+    <body>
+        <img src="logo.png"   width="1100" >
+        <table  border="1" align="center" bgcolor="lightblue" >
+            <tr>
+                <th bgcolor="yellow">time and days</th>
+                <th bgcolor="yellow">8:00-9:30</th>
+                <th bgcolor="yellow">9:45-11:14</th>
+                <th bgcolor="yellow">11:30-12:15</th>
+                <th bgcolor="yellow">12:15-1:00</th>
+                <th bgcolor="yellow">1:15-2:45</th>
+                <th bgcolor="yellow">3:00-4:30</th>
+            </tr>
+            <tr>
+                <th bgcolor="yellow">monday</th>
+                <td> Fundamentals of cryptocurrency</td>
+                <td>web application</td>
+                <td > mentor meet</td>
+                <td> python program</td>
+                <td colspan="3" align="center">-</td>
+            </tr>
+            <tr>
+                <th bgcolor="yellow">tuesday</th>
+                <td>python program</td>
+                <td align="center">-</td>
+                <td>mentor meet</td>
+                <td> web application </td>
+                
+            </tr>
+            <tr>
+                <th bgcolor="yellow">Wednesday</th>
+                <td>web application</td>
+                <td align="center">-</td>
+                <td  > mentor meet </td>
+                <td colspan="2" align="center">-</td>
+                <td>calculus and matrix </td>
+            </tr>
+            <tr>
+                <th bgcolor="yellow">Thursday</th>
+                <td align="center">-</td>
+                <td>Fundamentals of cryptocurrency</td>
+                <td>calculus and matrix</td>
+                <td>digital electronics</td>
+            </tr>
+            <tr>
+                <th bgcolor="yellow">Friday</th>
+                <td>python program</td>
+                <td align="center">-</td>
+                <td>mentor meet</td>
+                <td colspan="2" align="center">-</td>
+                <td>computer architecture</td>
+            </tr>
+            <tr>
+                <th bgcolor="yellow">Saturday</th>
+                <td>computer architecture</td>
+                <td>career development skill</td>
+                <td>mentor meet</td>
+                <td>digital electronics</td>
+                
+            </tr>
+
+        </table>
+        <table border="1" align="center" >
+            <tr>
+                <th bgcolor="yellow" >S.NO</th>
+                <th bgcolor="yellow">Subject code</th>
+                <th bgcolor="yellow">subject</th>
+            </tr>
+            <tr>
+                <th bgcolor="yellow">1</th>
+                <td>26ODJ148</td>
+                <td>Fundamentals of web application</td>
+            </tr>
+            <tr>
+                <th bgcolor="yellow">2</th>
+                <td>19CS305</td>
+                <td>computer architecture</td>
+            </tr>
+            <tr>
+                <th bgcolor="yellow">3</th>
+                <td>19CS547</td>
+                <td>matrix and calcus</td>
+            </tr>
+            <tr>
+                <th bgcolor="yellow">4</th>
+                <td>19AI301</td>
+                <td>python program</td>
+            </tr>
+            <tr>
+                <th bgcolor="yellow">5</th>
+                <td>19EY708</td>
+                <td>career development skill</td>
+            </tr>
+            <tr>
+                <th bgcolor="yellow">6</th>
+                <td>12CS547</td>
+                <td>Fundamentals of cryptocurrency</td>
+            </tr>
+            <tr>
+                <th bgcolor="yellow">7</th>
+                <td>19EE404</td>
+                <td>digital electronics</td>
+            </tr>
+        </table>
+    </body>
+</html>
+```
 
 
 ## OUTPUT
+![alt text](<Screenshot 2026-11-17 143541.png>)
 
 
 ## RESULT
