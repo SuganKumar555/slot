@@ -32,6 +32,10 @@ Execute the program using runserver command.
     <head>
         <title>my website</title>
     </head>
+     <h1 align="center">
+            SuganKumar (26017521)
+
+        </h1>
     <body>
         <img src="logo.png"   width="1100" >
         <table  border="1" align="center" bgcolor="lightblue" >
@@ -141,7 +145,7 @@ Execute the program using runserver command.
 
 
 ## OUTPUT
-![alt text](<Screenshot 2026-11-18 083744.png>)
+![alt text](<Screenshot 2026-11-23 094848.png>)
 
 
 ## RESULT
