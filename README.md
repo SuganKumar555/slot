@@ -29,124 +29,175 @@ Execute the program using runserver command.
 ## PROGRAM
 ```
 <html>
-    <head>
-        <title>my website</title>
-    </head>
-     <h1 align="center">
-            SuganKumar (26017521)
+<head>
+    <title>Time Table</title>
+</head>
+<body bgcolor="lightgreen">
+    <img src="/static/logo.png"  height="130" width="1100" hspace="400">
+<caption><h2 align="center">TIME TABLE - SuganKumar(26017521)</h2></caption>
 
-        </h1>
-    <body>
-        <img src="logo.png"   width="1100" >
-        <table  border="1" align="center" bgcolor="lightblue" >
-            <tr>
-                <th bgcolor="yellow">time and days</th>
-                <th bgcolor="yellow">8:00-9:30</th>
-                <th bgcolor="yellow">9:45-11:14</th>
-                <th bgcolor="yellow">11:30-12:15</th>
-                <th bgcolor="yellow">12:15-1:00</th>
-                <th bgcolor="yellow">1:15-2:45</th>
-                <th bgcolor="yellow">3:00-4:30</th>
-            </tr>
-            <tr>
-                <th bgcolor="yellow">monday</th>
-                <td> Fundamentals of cryptocurrency</td>
-                <td>web application</td>
-                <td > mentor meet</td>
-                <td> python program</td>
-                <td colspan="3" align="center">-</td>
-            </tr>
-            <tr>
-                <th bgcolor="yellow">tuesday</th>
-                <td>python program</td>
-                <td align="center">-</td>
-                <td>mentor meet</td>
-                <td> web application </td>
-                
-            </tr>
-            <tr>
-                <th bgcolor="yellow">Wednesday</th>
-                <td>web application</td>
-                <td align="center">-</td>
-                <td  > mentor meet </td>
-                <td colspan="2" align="center">-</td>
-                <td>calculus and matrix </td>
-            </tr>
-            <tr>
-                <th bgcolor="yellow">Thursday</th>
-                <td align="center">-</td>
-                <td>Fundamentals of cryptocurrency</td>
-                <td>calculus and matrix</td>
-                <td>digital electronics</td>
-            </tr>
-            <tr>
-                <th bgcolor="yellow">Friday</th>
-                <td>python program</td>
-                <td align="center">-</td>
-                <td>mentor meet</td>
-                <td colspan="2" align="center">-</td>
-                <td>computer architecture</td>
-            </tr>
-            <tr>
-                <th bgcolor="yellow">Saturday</th>
-                <td>computer architecture</td>
-                <td>career development skill</td>
-                <td>mentor meet</td>
-                <td>digital electronics</td>
-                
-            </tr>
 
-        </table>
-        <table border="1" align="center" >
-            <tr>
-                <th bgcolor="yellow" >S.NO</th>
-                <th bgcolor="yellow">Subject code</th>
-                <th bgcolor="yellow">subject</th>
-            </tr>
-            <tr>
-                <th bgcolor="yellow">1</th>
-                <td>26ODJ148</td>
-                <td>Fundamentals of web application</td>
-            </tr>
-            <tr>
-                <th bgcolor="yellow">2</th>
-                <td>19CS305</td>
-                <td>computer architecture</td>
-            </tr>
-            <tr>
-                <th bgcolor="yellow">3</th>
-                <td>19CS547</td>
-                <td>matrix and calcus</td>
-            </tr>
-            <tr>
-                <th bgcolor="yellow">4</th>
-                <td>19AI301</td>
-                <td>python program</td>
-            </tr>
-            <tr>
-                <th bgcolor="yellow">5</th>
-                <td>19EY708</td>
-                <td>career development skill</td>
-            </tr>
-            <tr>
-                <th bgcolor="yellow">6</th>
-                <td>12CS547</td>
-                <td>Fundamentals of cryptocurrency</td>
-            </tr>
-            <tr>
-                <th bgcolor="yellow">7</th>
-                <td>19EE404</td>
-                <td>digital electronics</td>
-            </tr>
-        </table>
-    </body>
+<table border="2" align="center" cellpadding="2" cellspacing="3" height="200" width="800">
+
+    <tr bgcolor="yellow">
+
+        <th>DAY/TIME</th>
+        <th>MONDAY</th>
+        <th>TUESDAY</th>
+        <th>WEDNESDAY</th>
+        <th>THURSDAY</th>
+        <th>FRIDAY</th>
+        <th>SATURDAY</th>
+
+    </tr>
+
+    <tr bgcolor="cyan">
+
+        <th bgcolor="yellow">8.00 TO 9.30</th>
+        <td align="center">FCC</td>
+        <td align="center">PY</td>
+        <td align="center">FWAD</td>
+        <td align="center"bgcolor="red">-</td>
+        <td align="center">PY</td>
+        <td align="center">CA</td>
+        
+
+
+    </tr>
+
+    <tr bgcolor="cyan">
+
+        <th bgcolor="yellow">9.45 TO 11.15</th>
+        <td align="center">FWAD</td>
+        <td align="center"bgcolor="red">-</td>
+        <td align="center"bgcolor="red">-</td>
+        <td align="center">FCC</td>
+        <td align="center"bgcolor="red">-</td>
+        <td align="center">CDS</td>
+
+    </tr>
+
+    <tr bgcolor="cyan">
+
+        <th bgcolor="yellow">11.30 TO 1.00</th>
+        <td colspan="6" align="center" bgcolor="lightgray">L U N C H / ECA-SCOFT-M</td>
+
+    </tr>
+
+    <tr bgcolor="cyan">
+
+        <th bgcolor="yellow">1.15 TO 2.45</th>
+        <td align="center">PY</td>
+        <td align="center">FWAD</td>
+        <td align="center"bgcolor="red">-</td>
+        <td align="center">MAT</td>
+        <td align="center"bgcolor="red">-</td>
+        <td align="center">DE</td>
+
+    </tr>
+
+    <tr bgcolor="cyan">
+
+        <th bgcolor="yellow">3.00 TO 4.30</th>
+        <td align="center"bgcolor="red">-</td>
+        <td align="center"bgcolor="red">-</td>
+        <td align="center">MAT</td>
+        <td align="center">DE</td>
+        <td align="center">CA</td>
+        <td align="center"bgcolor="red">-</td>
+
+    </tr>
+
+</table>
+
+<br><br>
+
+
+
+<table border="2"  cellspacing="3" align="center" cellpadding="2"  height="200" width="800">
+
+    <tr bgcolor="yellow">
+
+        <th>S. No.</th>
+        <th>Subject Code</th>
+        <th>Subject Name</th>
+
+    </tr>
+
+    <tr bgcolor="cyan">
+
+        <td align="center" bgcolor="yellow">1.</td>
+        <td align="center">19AI414</td>
+        <td>Fundamentals of Web Application Development (FWAD)</td>
+
+    </tr>
+
+    <tr bgcolor="cyan">
+
+        <td align="center" bgcolor="yellow">2.</td>
+        <td align="center">19CS305</td>
+        <td>Computer architecture (CA)</td>
+
+    </tr>
+
+    <tr bgcolor="cyan">
+
+        <td align="center" bgcolor="yellow">3.</td>
+        <td align="center">19MA201</td>
+        <td>Calculus and Matrix Algebra (MAT)</td>
+
+    </tr>
+
+    <tr bgcolor="cyan">
+
+        <td align="center" bgcolor="yellow">4.</td>
+        <td align="center">19CS547</td>
+        <td>Fundamentals of Cryptocurrency (FCC)</td>
+
+    </tr>
+
+    <tr bgcolor="cyan">
+
+        <td align="center" bgcolor="yellow">5.</td>
+        <td align="center">19AI301</td>
+        <td>Python Programming (PY)</td>
+
+    </tr>
+
+    <tr bgcolor="cyan">
+
+        <td align="center" bgcolor="yellow">6.</td>
+        <td align="center">19EY708</td>
+        <td>Career Development Skills (CDS)</td>
+
+    </tr>
+
+    <tr bgcolor="cyan">
+
+        <td align="center" bgcolor="yellow">7.</td>
+        <td align="center">19EE404</td>
+        <td >Digital Electronics (DE)</td>
+
+    </tr>
+
+    <tr bgcolor="cyan">
+
+        <td align="center" bgcolor="yellow">8.</td>
+        <td align="center">ECA-SCOFT-M</td>
+        <td>SCOFT Mentor Meeting</td>
+
+    </tr>
+
+</table>
+
+</body>
 </html>
 ```
 
 
 ## OUTPUT
-![alt text](<Screenshot 2026-11-24 195025.png>)
 
+![alt text](<Screenshot (15).png>)
 
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
