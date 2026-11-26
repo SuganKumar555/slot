@@ -32,28 +32,28 @@ Execute the program using runserver command.
 <head>
     <title>Time Table</title>
 </head>
-<body bgcolor="lightgreen">
-    <img src="/static/logo.png"  height="130" width="1100" hspace="400">
-<caption><h2 align="center">TIME TABLE - SuganKumar(26017521)</h2></caption>
+<body bgcolor="yellow">
+    <img src="/static/logo.png"  height="104" width="634" hspace="374">
+<caption><h2 align="center">slot timetable - SUGANKUMAR(26017521)</h2></caption>
 
 
-<table border="2" align="center" cellpadding="2" cellspacing="3" height="200" width="800">
+<table border="4" align="center" cellpadding="4" cellspacing="1" height="234" width="776">
 
-    <tr bgcolor="yellow">
+    <tr bgcolor="blue">
 
         <th>DAY/TIME</th>
-        <th>MONDAY</th>
-        <th>TUESDAY</th>
-        <th>WEDNESDAY</th>
-        <th>THURSDAY</th>
-        <th>FRIDAY</th>
-        <th>SATURDAY</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
 
     </tr>
 
     <tr bgcolor="cyan">
 
-        <th bgcolor="yellow">8.00 TO 9.30</th>
+        <th bgcolor="purple">8.00 TO 9.30</th>
         <td align="center">FCC</td>
         <td align="center">PY</td>
         <td align="center">FWAD</td>
@@ -67,7 +67,7 @@ Execute the program using runserver command.
 
     <tr bgcolor="cyan">
 
-        <th bgcolor="yellow">9.45 TO 11.15</th>
+        <th bgcolor="purple">9.45 TO 11.15</th>
         <td align="center">FWAD</td>
         <td align="center"bgcolor="red">-</td>
         <td align="center"bgcolor="red">-</td>
@@ -79,14 +79,14 @@ Execute the program using runserver command.
 
     <tr bgcolor="cyan">
 
-        <th bgcolor="yellow">11.30 TO 1.00</th>
-        <td colspan="6" align="center" bgcolor="lightgray">L U N C H / ECA-SCOFT-M</td>
+        <th bgcolor="purple">11.30 TO 1.00</th>
+        <td colspan="6" align="center" bgcolor="lightgray">LUNCH/ ECA-SCOFT-M</td>
 
     </tr>
 
     <tr bgcolor="cyan">
 
-        <th bgcolor="yellow">1.15 TO 2.45</th>
+        <th bgcolor="purple">1.15 TO 2.45</th>
         <td align="center">PY</td>
         <td align="center">FWAD</td>
         <td align="center"bgcolor="red">-</td>
@@ -98,7 +98,7 @@ Execute the program using runserver command.
 
     <tr bgcolor="cyan">
 
-        <th bgcolor="yellow">3.00 TO 4.30</th>
+        <th bgcolor="purple">3.00 TO 4.30</th>
         <td align="center"bgcolor="red">-</td>
         <td align="center"bgcolor="red">-</td>
         <td align="center">MAT</td>
@@ -110,13 +110,13 @@ Execute the program using runserver command.
 
 </table>
 
-<br><br>
+<br><br><br>
 
 
 
-<table border="2"  cellspacing="3" align="center" cellpadding="2"  height="200" width="800">
+<table border="4"  cellspacing="1" align="center" cellpadding="4"  height="246" width="607">
 
-    <tr bgcolor="yellow">
+    <tr bgcolor="blue">
 
         <th>S. No.</th>
         <th>Subject Code</th>
@@ -128,7 +128,7 @@ Execute the program using runserver command.
 
         <td align="center" bgcolor="yellow">1.</td>
         <td align="center">19AI414</td>
-        <td>Fundamentals of Web Application Development (FWAD)</td>
+        <td bgcolor="lightgray">Fundamentals of Web Application Development (FWAD)</td>
 
     </tr>
 
@@ -136,7 +136,7 @@ Execute the program using runserver command.
 
         <td align="center" bgcolor="yellow">2.</td>
         <td align="center">19CS305</td>
-        <td>Computer architecture (CA)</td>
+        <td bgcolor="lightgray">Computer architecture (CA)</td>
 
     </tr>
 
@@ -144,7 +144,7 @@ Execute the program using runserver command.
 
         <td align="center" bgcolor="yellow">3.</td>
         <td align="center">19MA201</td>
-        <td>Calculus and Matrix Algebra (MAT)</td>
+        <td bgcolor="lightgray">Calculus and Matrix Algebra (MAT)</td>
 
     </tr>
 
@@ -152,7 +152,7 @@ Execute the program using runserver command.
 
         <td align="center" bgcolor="yellow">4.</td>
         <td align="center">19CS547</td>
-        <td>Fundamentals of Cryptocurrency (FCC)</td>
+        <td bgcolor="lightgray">Fundamentals of Cryptocurrency (FCC)</td>
 
     </tr>
 
@@ -160,7 +160,7 @@ Execute the program using runserver command.
 
         <td align="center" bgcolor="yellow">5.</td>
         <td align="center">19AI301</td>
-        <td>Python Programming (PY)</td>
+        <td bgcolor="lightgray">Python Programming (PY)</td>
 
     </tr>
 
@@ -168,7 +168,7 @@ Execute the program using runserver command.
 
         <td align="center" bgcolor="yellow">6.</td>
         <td align="center">19EY708</td>
-        <td>Career Development Skills (CDS)</td>
+        <td bgcolor="lightgray">Career Development Skills (CDS)</td>
 
     </tr>
 
@@ -176,7 +176,7 @@ Execute the program using runserver command.
 
         <td align="center" bgcolor="yellow">7.</td>
         <td align="center">19EE404</td>
-        <td >Digital Electronics (DE)</td>
+        <td bgcolor="lightgray">Digital Electronics (DE)</td>
 
     </tr>
 
@@ -184,7 +184,7 @@ Execute the program using runserver command.
 
         <td align="center" bgcolor="yellow">8.</td>
         <td align="center">ECA-SCOFT-M</td>
-        <td>SCOFT Mentor Meeting</td>
+        <td bgcolor="lightgray">SCOFT Mentor Meeting</td>
 
     </tr>
 
